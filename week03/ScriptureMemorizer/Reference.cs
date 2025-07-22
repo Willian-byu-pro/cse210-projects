@@ -6,7 +6,7 @@ public class Reference
     private int _endVerse;
     // One constructor is going to be with more 
     // than one verse and other one just one verse.
-    // for example jhon 3:15-16
+    // for example 1Nefi 3:7 
     public Reference(string book, int chapter, int verse, int endVerse)
     {
         _book = book;
@@ -14,7 +14,7 @@ public class Reference
         _verse = verse;
         _endVerse = endVerse;
     }
-    // for example jhon 3:15
+    // for example 1Nefi 3:7 
     public Reference(string book, int chapter, int verse)
     {
         _book = book;
@@ -28,12 +28,12 @@ public class Reference
     {
         if (_verse == _endVerse)
         {
-            // for example jhon 3:15
+            // example 1Nefi 3:7
             return $"{_book} {_chapter}:{_verse}";
         }
         else
         {
-            // for example jhon 3:15-16
+            // example 1Nefi 3:7-8
             return $"{_book} {_chapter}:{_verse}-{_endVerse}";
         }
     }
