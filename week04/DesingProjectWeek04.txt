@@ -1,0 +1,70 @@
+Design YouTube Project
+
+Public Classe Video
+
+   _title: String
+   _Author: String 
+   _length: int  
+   List<Comment> _comments = new List<Comment>();
+
+   void GetDisplayVideo(_title; _Author; _length):
+   
+
+   void AddComment(Comment comment)
+   int GetNumberOfComments(Count)
+   GetComments(List)
+    
+        
+
+
+
+
+Public Classe Comment
+    _name: String
+    _comment:String
+
+   Comment(_name, _text)
+
+
+----------------------- // ---------------------------
+
+Design OnlineOrdering Project
+
+  Classe Product. 
+   _name:String
+   _productId: String
+   _price:double
+   _quantity:int
+
+  Product(name, productId, price, quantity)
+  GetTotalCost(_price*_quantity)
+
+  Classe Customer. 
+
+  _name: String
+  _address: (Adress)
+
+  Customer(name, Address:Classe)
+
+  LiveUSA(): _address.IsUSA
+
+  live
+
+
+  Classe Address.
+
+   _street:string
+   _city:string
+   _stateProvince:string
+   _country:S string
+
+  GetAdreesComplet(street, city, state, country):
+
+
+  Classe Order.
+   _products = List<Products>
+   _customer 
+
+
+   AddProduct(Product product)
+   GetTotalPrice()
