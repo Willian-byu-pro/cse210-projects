@@ -1,0 +1,51 @@
+1. Activity Class
+ 
+	Attributes:
+	string : _name
+	string : _description
+	int: _duration
+ 
+	Methods:
+	1. DisplayMessage(): void
+	2. DisplayMessageEnd(): void
+	3. DisplayAnimation(): void
+	4. Spinner(int: time): void
+	5. Counter(int: time): void
+	Constructor:
+	Activity(string _name, string _description, int _duration)
+ 
+2. BreathingActivity Class: Activity
+	Attributes:
+	- no attributes
+	Methods:
+	Run(): void
+	Constructor:
+	BreathingActivity(): base(name, description, duration)
+ 
+3. ReflectionActivity Class: Activity
+	Attributes:
+	List<string> _promptList
+	List<string> _questionList
+ 
+	Methods:
+	Run(): void
+	RandomPrompt(): string
+	RandomQuestion(): string
+	DisplayPrompy(): void
+	DisplayQuestion(): void
+ 
+	Constructor:
+	ReflectionActivity(List<string> promptList, List<string> questionList): base(name, description, duration)
+ 
+4. ListingActivity Class: Activity
+	Attributes:
+	List<string>: _promptList
+	int: _counter	
+ 
+	Methods:
+	Run(): void
+	RandomPromts(): string
+	ListItems(): ?
+ 
+	Constructor:
+	ListingActivity(List<string> promptList, int counter): base(name, description, duration)
