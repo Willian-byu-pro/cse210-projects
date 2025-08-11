@@ -1,0 +1,40 @@
+
+OptionMenuGoals:
+
+OptionList: string
+
+1
+Class NewGoal:
+
+_Gols : string
+_ListGoals<List> : String
+_totalpoints : int
+_descripion : string
+
+GetDurationGols()
+GetPointsGols():
+
+
+
+
+2
+SimpleGoals : NewGoal
+
+
+
+
+
+3
+EternalGoals : NewGoal
+
+
+
+
+4
+ChekListGoal:
+
+
+
+
+
+

@@ -25,7 +25,7 @@ public class Activity
     }
     
 
-    void Spinner(int time) {
+    protected void Spinner(int time) {
 
         string[] sequence = { "|", "/", "-", "\\" };
         DateTime endTime = DateTime.Now.AddSeconds(time);
