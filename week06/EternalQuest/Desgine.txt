@@ -1,0 +1,83 @@
+
+GolManager:
+
+_goals: List<Goal>
+_score: int
+
+Goalmanager()
+Start(): void
+DisplayPlayerInfo():void
+ListGoalNames():void
+ListGoalDetails():void
+CreateGoal():void
+SaveGoals():void
+LoadGoals():void
+
+
+
+
+
+Goal:
+
+_shortName: string
+_descripion: string
+_points:string
+
+Goal(name, description, point)
+IsComplete(): bool
+GetDetalsString(): string
+getStringrepresentation():string
+
+
+
+
+
+
+
+SimpleGoal:Goal
+
+_isComplete: bool
+
+SimpleGoal(name, description, point)
+RecordEvent():void
+IsComplete():bool
+getStringrepresentation():string
+
+
+
+
+
+
+
+
+EternalGoal:Goal
+
+EternalGoal(name, descrition, points)
+RecordEvent():void
+IsComplete:bool
+getStringRepresentation():string
+
+
+
+
+
+
+
+
+ChecklistGoal:
+
+_amountCompleted: int
+_target:int
+_bonus:int
+
+ChecklistGoal(name, description, points, target, _bonus)
+RecordEvent(): void
+IsCompleted():bool
+GetDetailsString():string
+getStringRepresentation(): string
+
+
+
+
+
+
